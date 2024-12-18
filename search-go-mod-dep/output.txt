@@ -1,0 +1,13 @@
+/home/ubuntu/go/pkg/mod/k8s.io/apiextensions-apiserver@v0.31.1/go.mod:	k8s.io/api v0.31.1
+/home/ubuntu/go/pkg/mod/k8s.io/client-go@v0.31.1/go.mod:	k8s.io/api v0.31.1
+/home/ubuntu/go/pkg/mod/k8s.io/component-base@v0.31.1/go.mod:	k8s.io/api v0.31.1 // indirect
+/home/ubuntu/go/pkg/mod/k8s.io/kube-aggregator@v0.31.1/go.mod:	k8s.io/api v0.31.1
+/home/ubuntu/go/pkg/mod/k8s.io/apiserver@v0.31.1/go.mod:	k8s.io/api v0.31.1
+/home/ubuntu/go/pkg/mod/github.com/grafana/grafana-app-sdk@v0.23.1/go.mod:	k8s.io/api v0.31.1
+/home/ubuntu/go/pkg/mod/k8s.io/apiextensions-apiserver@v0.31.1/go.mod:	k8s.io/apimachinery v0.31.1
+/home/ubuntu/go/pkg/mod/k8s.io/client-go@v0.31.1/go.mod:	k8s.io/apimachinery v0.31.1
+/home/ubuntu/go/pkg/mod/k8s.io/component-base@v0.31.1/go.mod:	k8s.io/apimachinery v0.31.1
+/home/ubuntu/go/pkg/mod/k8s.io/kube-aggregator@v0.31.1/go.mod:	k8s.io/apimachinery v0.31.1
+/home/ubuntu/go/pkg/mod/k8s.io/apiserver@v0.31.1/go.mod:	k8s.io/apimachinery v0.31.1
+/home/ubuntu/go/pkg/mod/k8s.io/api@v0.31.1/go.mod:	k8s.io/apimachinery v0.31.1
+/home/ubuntu/go/pkg/mod/github.com/grafana/grafana-app-sdk@v0.23.1/go.mod:	k8s.io/apimachinery v0.31.1
