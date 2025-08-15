@@ -1,0 +1,18 @@
+[req]
+distinguished_name = req_distinguished_name
+req_extensions = ca_extensions
+prompt = no
+
+[req_distinguished_name]
+C = VN
+ST = AG
+L = AP7
+O = pb-examples
+OU = authz
+CN = test-ca
+
+[ca_extensions]
+basicConstraints = critical,CA:TRUE
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer:always
+keyUsage = critical,keyCertSign

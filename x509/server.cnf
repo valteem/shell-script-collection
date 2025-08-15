@@ -1,0 +1,22 @@
+[req]
+distinguished_name = req_distinguished_name
+req_extensions = server_extensions
+prompt = no
+
+[req_distinguished_name]
+C = VN
+ST = AG
+L = AP7
+O = pb-examples
+OU = authz-server
+CN = test-server
+
+[server_extensions]
+basicConstraints = critical,CA:FALSE
+subjectKeyIdentifier = hash
+keyUsage = critical,digitalSignature,keyEncipherment,keyAgreement
+subjectAltName=@altnames
+
+[altnames]
+DNS.1=*.test.example.com
+DNS.2=echo.server.com
